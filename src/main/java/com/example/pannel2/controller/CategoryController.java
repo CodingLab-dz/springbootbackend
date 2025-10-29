@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 
-@CrossOrigin(origins = "http://localhost:3000")// Allow Next.js (or any frontend) to make requests
+@CrossOrigin(origins = "https://springbootfrontend.vercel.app/")// Allow Next.js (or any frontend) to make requests
 @RequestMapping("/api/categories")
 public class CategoryController {
     private final CategoryRepository categoryRepository;

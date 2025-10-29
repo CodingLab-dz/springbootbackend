@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")// Allow Next.js (or any frontend) to make requests
+@CrossOrigin(origins = "https://springbootfrontend.vercel.app/")// Allow Next.js (or any frontend) to make requests
 @RequestMapping("/api/products")
 public class ProductController {
     @Autowired

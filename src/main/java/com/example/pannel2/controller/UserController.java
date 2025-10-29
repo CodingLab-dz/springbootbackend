@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 
-@CrossOrigin(origins = "http://localhost:3000")// Allow Next.js (or any frontend) to make requests
+@CrossOrigin(origins = "https://springbootfrontend.vercel.app/")// Allow Next.js (or any frontend) to make requests
 @RequestMapping("/api/users")
 public class UserController {
 
